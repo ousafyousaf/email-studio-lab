@@ -14,3 +14,7 @@ This folder is an email marketing studio. We use it to plan and write email camp
 - Write in plain English.
 - Never send email to real people.
 - Ask me before deleting anything.
+
+## Brand voice
+
+@brand/voice.md
