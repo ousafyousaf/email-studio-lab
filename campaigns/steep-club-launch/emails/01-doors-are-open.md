@@ -1,5 +1,5 @@
-Subject: The Steep Club is open, and you're first in
-Preview: You waited with us. Here's your founding member welcome, and one small question.
+Subject: The Steep Club is open, and you're first to know
+Preview: You waited with us. Here's your founding member invite, and one small question.
 
 Hi {{first_name}},
 
@@ -17,7 +17,7 @@ We're calling the first people to join our **founding members**. We'd be glad to
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 
-Buying for someone else? The same page has a gift option.
+Buying for someone else? Reply and tell me, and we'll help you set it up.
 
 **One small question.** Hit reply and tell me which of these sounds most like you:
 

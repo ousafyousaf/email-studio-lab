@@ -7,7 +7,7 @@ A month ago, we opened the doors to The Steep Club. Before the new year gets goi
 
 You put your name on our waitlist before there was anything to see. That meant a lot to a small tea shop, and it's a big part of why the club exists at all.
 
-**Here's where things stand.** The next Steep Club box leaves the shop on [CONFIRM: next ship date]. If you join before then, yours will be in it.
+**Here's where things stand.** The next Steep Club box leaves the shop on [CONFIRM: next ship date]. Join by [CONFIRM: order cut-off date] and yours will be in it.
 
 If now isn't the right time, that's completely fine. There's no rush. The page will be here whenever you'd like a little more quiet in your daily cup.
 

@@ -1,9 +1,9 @@
 Subject: Here's how The Steep Club works
-Preview: What arrives each month, how to brew it, and what happens if a tea isn't for you.
+Preview: What arrives each month, how to brew it, and who to tell if a tea isn't for you.
 
 Hi {{first_name}},
 
-On Monday we opened the doors to The Steep Club. Today, here's how it actually works, plainly.
+Earlier this week we opened the doors to The Steep Club. Today, here's how it actually works, plainly.
 
 **Once a month, a small box arrives.** Inside are the leaves we picked and tasted that month, plus a brewing card with simple steep times. You brew, you sip, you take a moment.
 
@@ -11,11 +11,11 @@ How it fits you depends a little on who you are:
 
 **If you're new to tea:** you don't need any special kit or know-how. Follow the card, use the kettle you already have, and if something doesn't taste right, reply and tell me. We'll work it out together.
 
-**If it's a gift:** you choose the person, we send the box. It's a small reminder to slow down that turns up again each month.
+**If it's a gift:** you choose the person, we send the box. It's a small reminder to slow down that turns up each month, for as long as the gift lasts.
 
-**If you brew every day:** these are leaves you won't find on a supermarket shelf. We buy in small batches and taste every one before it goes in a box.
+**If you brew every day:** these are leaves we chose ourselves, in small batches. We taste every one before it goes in a box.
 
-Price, what's in the box, and how to pause, skip or cancel are all on one page, with nothing hidden.
+Price, what's in the box, and how to pause, skip or cancel are all on one page.
 
 [See how The Steep Club works](https://kettlebird.example/steep-club)
 

@@ -1,9 +1,9 @@
 Subject: Meet this month's leaves
-Preview: Where they come from, why we chose them, and how we like to brew them at the shop.
+Preview: Where they come from, why we chose them, and how we like to brew a cup at the shop.
 
 Hi {{first_name}},
 
-Choosing the teas is my favourite part of running Kettlebird. We buy in small batches and taste every one, and we keep only the ones we want to come back to.
+Choosing the teas is my favourite part of running Kettlebird Tea. We buy in small batches and taste every one, and we keep only the ones we want to come back to.
 
 Here's what we picked for the first Steep Club box.
 
@@ -18,7 +18,7 @@ From [CONFIRM: where it's grown]. [CONFIRM: two lines in Mira's words on how it 
 
 **How we like to brew them:** fresh water, a warm cup, and a few minutes where nobody checks their phone. The brewing card in the box has the steep time for each leaf.
 
-If any of these sound like your kind of cup, they could be on your counter soon.
+If any of these sound like your kind of cup, they could be in your first box.
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 

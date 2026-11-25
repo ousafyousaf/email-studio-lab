@@ -22,3 +22,7 @@ Every email file in a campaign's `emails/` folder must follow this format. Write
    Kettlebird Tea, {{company_address}} · Unsubscribe: {{unsubscribe_url}}
 
 Only one subject line per email. Do not offer subject options or A/B variants inside the email file.
+
+## Facts we cannot confirm yet
+
+If an email needs a fact only the business owner can confirm (a date, a price, a tea name, a policy), write it as `[CONFIRM: what is needed]` instead of inventing it. Never present an unconfirmed date as a deadline. An email with any `[CONFIRM: ...]` left in it is a draft and must not be sent.
