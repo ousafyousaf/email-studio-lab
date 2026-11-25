@@ -21,7 +21,22 @@ const schemaPath = "review/findings.schema.json";
 const outPath = "review/findings.json";
 const schema = readFileSync(schemaPath, "utf8");
 
-const prompt = `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. Report only real problems.`;
+let prompt = `Review every email in ${folder} against brand/voice.md and .claude/rules/emails.md. Report only real problems.`;
+
+// If the last review was of the same folder, send its findings so Claude reports only new or unfixed problems.
+if (existsSync(outPath)) {
+  try {
+    const previous = JSON.parse(readFileSync(outPath, "utf8"));
+    if (previous.folder === folder && Array.isArray(previous.findings)) {
+      prompt +=
+        "\n\nThese are findings from the last review. Report only problems that are new or still not fixed. Don't repeat ones that have been fixed.\n" +
+        JSON.stringify(previous.findings, null, 2);
+      console.log(`Re-review: sending ${previous.findings.length} earlier findings for ${folder}`);
+    }
+  } catch {
+    // Unreadable earlier findings: do a full review.
+  }
+}
 const args = ["-p", prompt, "--output-format", "json", "--json-schema", schema, "--allowedTools", "Read,Glob,Grep"];
 
 // On Windows an npm install puts a .cmd wrapper on PATH, which spawnSync cannot run
@@ -68,7 +83,7 @@ if (!structured || !Array.isArray(structured.findings)) {
 }
 
 mkdirSync(dirname(outPath), { recursive: true });
-writeFileSync(outPath, JSON.stringify(structured, null, 2) + "\n");
+writeFileSync(outPath, JSON.stringify({ folder, findings: structured.findings }, null, 2) + "\n");
 
 const count = (s) => structured.findings.filter((f) => f.severity === s).length;
 const high = count("high");

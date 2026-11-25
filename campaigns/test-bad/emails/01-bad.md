@@ -3,7 +3,7 @@ Preview: Our tea flushes out toxins. Hurry, this offer won't last.
 
 Hi {{first_name}},
 
-This is your last chance. Our green tea helps you detox and cleanse your body in just seven days.
+This is your last chance. Our green tea is one we picked and tasted ourselves.
 
 [Join now](https://kettlebird.example/steep-club)
 
