@@ -1,5 +1,5 @@
-Subject: The Steep Club is open, and you're first to know
-Preview: You waited with us. Here's your founding member invite, and one small question.
+Subject: A quiet moment for your daily cup
+Preview: The Steep Club is open, and you're first to know.
 
 Hi {{first_name}},
 
