@@ -1,0 +1,46 @@
+{
+  "findings": [
+    {
+      "file": "campaigns/steep-club-launch/emails/03-meet-the-leaves.md",
+      "line": 10,
+      "severity": "high",
+      "problem": "Unresolved [CONFIRM] placeholders for tea names, origins and tasting notes (same in all 3 group versions). The email is a draft and cannot be sent.",
+      "fix": "Get the real tea names, origins and Mira's tasting notes, and fill them in."
+    },
+    {
+      "file": "campaigns/steep-club-launch/emails/04-thank-you-for-waiting.md",
+      "line": 10,
+      "severity": "high",
+      "problem": "Unresolved [CONFIRM] ship date and order cut-off date, written as a 'Join by' deadline (same in all 3 group versions). The email is a draft, and the deadline has no confirmed date behind it.",
+      "fix": "Fill in the real dates confirmed by whoever handles shipping, or remove the 'Join by' sentence."
+    },
+    {
+      "file": "campaigns/steep-club-launch/emails/02-how-it-works.md",
+      "line": 18,
+      "severity": "medium",
+      "problem": "States unconfirmed facts as true: the brewing card (line 8, and email 01 line 13), a page with price and pause/skip/cancel, and gift lengths ('for as long as the gift lasts', line 14). The plan marks all of these [CONFIRM]. Applies to all versions of 01 and 02.",
+      "fix": "Confirm with Mira, or mark them [CONFIRM: ...] until confirmed."
+    },
+    {
+      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/01-doors-are-open.md",
+      "line": 22,
+      "severity": "low",
+      "problem": "Group versions of 01 still ask 'which of these sounds most like you?', but these readers are already in a group. The plan says the picker is only for people whose group is unknown. Same in daily-drinkers and tea-curious.",
+      "fix": "Remove the question block (lines 22-28) from the group versions."
+    },
+    {
+      "file": "campaigns/steep-club-launch/groups/daily-drinkers/emails/02-how-it-works.md",
+      "line": 10,
+      "severity": "low",
+      "problem": "Group versions of 02 still include all three group sections ('How it fits you depends on who you are…'), so readers get the other groups' text. Same in gift-buyers and tea-curious.",
+      "fix": "Keep only the section for that group, or blend it into the body."
+    },
+    {
+      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/04-thank-you-for-waiting.md",
+      "line": 10,
+      "severity": "low",
+      "problem": "Gift-buyer copies still talk to the reader as the one receiving the box ('yours will be in it'; in 01 lines 8 and 12 'gives you a moment back', 'we send you'). The button says 'Join' instead of 'Give The Steep Club' as the plan says (also in 03).",
+      "fix": "Reword for the gift buyer ('their box', 'we send them') and change the button text to 'Give The Steep Club'."
+    }
+  ]
+}
